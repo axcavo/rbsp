@@ -8,6 +8,14 @@ SIGNATURE = b'MAGIC'
 
 @dataclass(frozen=True)
 class Header:
+    """
+    version: uint16_le\n
+    width: uint16_le\n
+    height: uint16_le\n
+    block_count: uint16_le\n
+    data_offset: uint16_le\n
+    signature: bytes = SIGNATURE\n
+    """
     version: uint16_le
     width: uint16_le
     height: uint16_le

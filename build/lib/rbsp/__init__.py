@@ -7,4 +7,5 @@ __all__ = [
     "Header",
     "write_rbsp",
     "read_rbsp",
+    "SIGNATURE",
 ]
