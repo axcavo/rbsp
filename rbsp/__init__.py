@@ -1,5 +1,6 @@
 from rbsp._data import Block, Run, SIGNATURE, Header
 from rbsp._rbsp_io import read_rbsp, write_rbsp
+from rbsp._utils import to_rbsp
 
 __all__ = [
     "Block",
@@ -8,4 +9,5 @@ __all__ = [
     "write_rbsp",
     "read_rbsp",
     "SIGNATURE",
+    "to_rbsp"
 ]
